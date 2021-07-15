@@ -1,0 +1,56 @@
+body{
+    background-color:#e0e0e0;
+    overflow: hidden;
+}
+/* styling the navbar */
+.navbar{
+    background-color: #313b87!important;
+    max-height: 100px;
+}
+.navbar-brand img{
+    max-height: 70px;
+}
+.navbar-toggler{
+    background-color: #22e;
+}
+/* styling two column section */
+.topz{
+   margin:5px 0 ;
+   padding:5% ;
+}
+/* styling row 1 */
+.login-section{
+background-color: #ffffff;
+padding: 30px 50px;
+box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.5);
+}
+.login-section h3{
+    margin-bottom:50px;
+}
+.login-section .btn{
+    margin:10px 0;
+}
+/********************
+ styling row 2
+ ********************/
+.msg-section{
+    background-color: #313b87;
+    color: #ffffff;
+    padding: 30px 50px;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+.msg-section h3 {
+    padding-bottom: 15px;
+}
+
+/* styling footer section */
+.footer-section{
+ color:#212121;
+   
+    
+}
+.footer-section p{
+    text-align: center;
+    padding: 30px;
+}

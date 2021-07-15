@@ -1,0 +1,32 @@
+body{
+    max-height: max-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color:#e0e0e0;
+    background-position: center;
+}
+
+
+/* styling the navbar */
+.navbar{
+    background-color: #313b87!important;
+    max-height: 100px;
+}
+.navbar-brand img{
+    max-height: 70px;
+}
+.navbar-toggler{
+    background-color: #22e;
+}
+/****** styling form */
+form{margin-top: 50px;}
+/****** styling footer-section */
+/* styling footer section */
+.footer-section{
+     color:#212121;
+  
+}
+.footer-section p{
+    text-align: center;
+    padding: 30px;
+}

@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.1);
+    overflow-x: hidden;
+
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: #fff;
+}
+
+/**********************************************
+   styling  section-start
+ *********************************************/
+ #header-section{
+     position: relative;
+     background-image: url('images/greenelectriccctboard.jpg');
+     overflow: hidden; 
+     top: 100%;   
+ }
+    
+ #particles-js{
+    position:absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.particles-js-canvas-el{
+    position: absolute;
+
+}
+
+
+ #header-section > *{
+     position: relative;
+     z-index:2;
+ }
+#header-section:nth-of-type(1)::after{
+    content:'';
+    top: 0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%; height: 100%;
+    z-index: 0;
+   
+}
+
+/*styling caption */
+.caption{
+    margin-top: 5%;
+    }
+.header-caption{
+    font-family: 'Zen Tokyo Zoo', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+
+}
+.header-lower-caption{
+ font-family: "montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: 300;
+ font-size: 2rem;
+}
+.header-image{
+    width:95%;
+}
+
+/**********************************************
+   styling header section
+ *********************************************/
+
+/* navbar */
+.bg{
+    background-color:#77a915 !important;
+}
+
+.ml{
+    margin-left: 70%;
+}
+.navbar-brand img{
+   width: 65%;
+   padding-left: 60px;
+}
+.nav-link{
+    color:#ffffff !important ;
+}
+ 
+
+
+
+
+
+/**********************************************
+   styling excos section
+ ******************************************/
+.padding{
+    padding-bottom: 2rem;
+    
+}
+/*styling welcome section*/
+.welcome{
+    margin: 0px auto;
+     width: 70%;
+     padding-top: 2rem;
+     }
+     .welcome-div  {
+        color: #66bfbf;
+     }
+     .welcome hr{
+         border: 1px solid #b4b4b4;
+         margin-top: .3rem;
+         margin-bottom: 1rem;
+         width: 50%;
+     }
+.card-body h3  {
+    color:#66bfbf;
+    padding: 5% 5% 0;
+}
+.card-body p  {
+    color:#66bfbf;
+    padding:5% 5% 3%;
+}
+
+ 
+
+/**********************************************
+   styling Candidates section
+ *********************************************/
+#candidates{
+    background-color:#dcf2f1;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 1300px;
+}
+
+
+.card-body a {
+    position: relative;
+    border-radius: 1rem;
+    display: block;
+    z-index: 1;
+    overflow: hidden;   
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+  .carousel-item .card-body a::after  {
+    width: 100%;
+    height: 88.5%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    content: "";
+    background-color: #0C153B;
+    position: absolute;
+    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    opacity: 0.45;
+}
+
+.body img{
+    width: 376px; 
+    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.carousel-item .card-body h6 {
+    font-size: 11px;
+    display: block;
+    z-index: 6;
+    top: -50px;
+    left: 18px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: #ffaf00;
+   
+}
+.carousel-item .card-body a p {
+    font-size: 11px;
+    display: block;
+    z-index: 6;
+    top: -60px;
+    left:0;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: #fff;
+   
+}
+ 
+/**********************************************
+   styling Candidates section
+ *********************************************/
